@@ -1,0 +1,50 @@
+/* Result */
+.result {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+}
+.result p {
+	color: '#003333';
+	font-weight: 400;
+	padding: 0.5rem 1rem;
+	margin-top: 10rem;
+	margin-right: 1rem;
+}
+.result button {
+	padding: 0 1rem;
+	height: 3rem;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #fff;
+	background-color: #ff9f38;
+	border: none;
+	cursor: pointer;
+	margin-top: 9rem;
+}
+.result button.copied {
+	background: #003333;
+	color: #ff9f38;
+}
+.noData {
+	color: '#003333';
+	font-size: 1rem;
+}
+@media (max-width: 768px) {
+	.result p {
+		margin-top: 2rem;
+	}
+	.result button {
+		margin-top: 2rem;
+	}
+}
+/* lottie & */
+
+.lottie {
+
+	
+	width: 70%;
+}

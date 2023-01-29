@@ -1,0 +1,76 @@
+h2 {
+	color: #003333;
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+
+h2 span {
+	color: #ff9f38;
+}
+.input-form div {
+	display: flex;
+	margin-bottom: 2rem;
+}
+.input-form input {
+	width: 100%;
+	padding: 0.5rem 0.2rem 0.5rem 0;
+	text-indent: 1rem;
+	border: 0.5px solid #ff9f38;
+	outline: none;
+	font-size: 1rem;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.input-form input::placeholder {
+	font-size: 0.9rem;
+}
+.input-form button {
+	padding: 0 1rem;
+	height: 3rem;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #fff;
+	background-color: #ff9f38;
+	border: none;
+	cursor: pointer;
+}
+
+.qrCode {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #d9e3f0;
+	margin-bottom: 1rem;
+}
+
+.qrCode img {
+	width: 30%;
+}
+
+.qrCode button {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	width: 100%;
+	color: #fff;
+	background-color: #ff9f38;
+	border: none;
+	cursor: pointer;
+}
+.qrCode img {
+	width: 100%;
+}
+.qrCode button.downloaded {
+	background: #003333;
+	color: #ff9f38;
+}
+.noData {
+	color: '#003333';
+	font-size: 1rem;
+}
